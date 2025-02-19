@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+      
         <div class="logo-container">
             <a class="d-flex align-items-center link-body-emphasis text-decoration-none">
               <img :src="logo2" alt="Bu yerda logotip turadi"  style="width: 100%; cursor: pointer;" /> 

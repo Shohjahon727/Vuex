@@ -3,7 +3,7 @@
         <h1 class="text-center">New Article</h1>
         <div class="row">
             <div v-for="item in news" :key="item.id" class="col-md-4 mb-4">
-                <div class="card">
+                <div class="card p-3 shadow-sm bg-white rounded">
                     <RouterLink class="text-decoration-none" :to="{name:'newsDetails',params:{shortname: item.shortName,data: formatData(item.createdDate)}}">
                             <h4 class="card-title">{{ item.title }}</h4>
                     </RouterLink>
